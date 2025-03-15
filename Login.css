@@ -1,0 +1,69 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg, #007BFF, #0056b3);
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login Card Styling */
+.login-card {
+  background-color: #ffffff;
+  color: #000;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-card h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #007BFF; /* Blue Heading */
+}
+
+.form-control {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 0.8rem;
+}
+
+.btn-primary {
+  background-color: #007BFF;
+  border: none;
+  padding: 0.8rem;
+  width: 100%;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.text-muted {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.text-muted a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+.text-muted a:hover {
+  text-decoration: underline;
+}
